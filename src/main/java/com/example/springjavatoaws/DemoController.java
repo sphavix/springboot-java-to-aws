@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class DemoController {
     @GetMapping("/demo")
     public String GetData(){
-        return "Hello World, from AWS ECS and Fargate";
+        return "Hello World, from AWS ECS and Fargate, integrating with CodePipeline.";
     }
 }

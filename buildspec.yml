@@ -25,7 +25,7 @@ phases:
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - echo Writing image definitions file...
       # Container name
-      - DOCKER_CONTAINER_NAME=springboot-java-ecs
+      - DOCKER_CONTAINER_NAME=springboot-java-service
       - printf '[{"name":"%s","imageUri":"%s"}]' $DOCKER_CONTAINER_NAME $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
       - echo $DOCKER_CONTAINER_NAME
       - echo printing imagedefinitions.json

@@ -1,0 +1,5 @@
+# Created at 2024-02-16T09:46:57.465
+Boot Manifest-JAR contains absolute paths in classpath 'H:\DevOps\Learning\JavaonAWS\JavaApp\spring-java-to-aws\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
